@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <link rel="shortcut icon" href="{{URL::asset('img/favicon.png')}}" type="image/x-icon">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style-main.css">
@@ -105,7 +105,7 @@
         <!--================End Bannner Area =================-->
 
         <!--================Feature Two Area =================-->
-        <section class="feature-two">
+        <!-- <section class="feature-two">
             <div class="container">
                 <div class="row align-items-center gy-4 gy-lg-0">
                     <div class="col-lg-6 order-lg-2 ps-lg-4 text-center text-lg-start  offset-xl-1">
@@ -127,17 +127,17 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!--================End Feature Two Area =================-->
 
         <sectiom class="feature-two">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-12">
-                        <div class="section_title text-start">
-                            <h2 class="h_title wow fadeInUp">Frequency Asked Questions</h2>
-                        </div>
-                        <div class="choose-content">
+                        <div class="choose-content mt-5">
+                            <div class="section_title text-start">
+                                <h2 class="h_title wow fadeInUp">Frequency Asked Questions</h2>
+                            </div>
                             <div class="accordion" id="accordionExample">
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingOne" >
