@@ -21,8 +21,8 @@
         <nav class="navbar navbar-expand-lg  menu_one sticky-nav d-none d-lg-block">
             <div class="container">
                 <a class="navbar-brand header_logo" href="/">
-                    <img class="first_logo sticky_logo" src="#" srcset="img/logo-2x.png 2x" alt="logo">
-                    <img class="white_logo main_logo" src="#" srcset="img/logo-w2x.png 2x" alt="logo">
+                    <img class="first_logo sticky_logo" src="{{URL::asset('img/logo.png')}}" srcset="img/logo-2x.png 2x" alt="logo">
+                    <img class="white_logo main_logo" src="{{URL::asset('img/logo-w.png')}}" srcset="img/logo-w2x.png 2x" alt="logo">
                 </a>
 
 
@@ -50,8 +50,8 @@
                         </span>
                     </button>
                     <a class="navbar-brand header_logo" href="/">
-                        <img class="sticky_logo " src="#" srcset="img/logo-2x.png 2x" alt="logo">
-                        <img class="main_logo white_logo" src="#" srcset="img/logo-w2x.png 2x" alt="logo">
+                        <img class="sticky_logo " src="{{URL::asset('img/logo.png')}}" srcset="img/logo-2x.png 2x" alt="logo">
+                        <img class="main_logo white_logo" src="{{URL::asset('img/logo-w.png')}}" srcset="img/logo-w2x.png 2x" alt="logo">
                     </a>
                 </div>
             </div>
@@ -63,8 +63,8 @@
                 </div>
                 <div class="mobile_logo">
                     <a class="navbar-brand header_logo me-0" href="/">
-                        <img class="sticky_logo main_logo" src="#" srcset="img/logo-2x.png 2x" alt="logo">
-                        <img class="white_logo" src="#" srcset="img/logo-w2x.png 2x" alt="logo">
+                        <img class="sticky_logo main_logo" src="{{URL::asset('img/logo.png')}}" srcset="img/logo-2x.png 2x" alt="logo">
+                        <img class="white_logo" src="{{URL::asset('img/logo-2.png')}}" srcset="img/logo-w2x.png 2x" alt="logo">
                     </a>
                 </div>
             </div>
@@ -85,7 +85,8 @@
                 <div class="row doc_banner_content">
                     <div class="col-12 px-0">
                         <h1 class="banner-title-h1">Welcome to {{config('app.name')}}</h1>
-                        <p class="banner-text-p">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <p class="banner-text-p">{{config('app.name')}} is a unique initiative that helps Nigerians and other Africans increase their earning 
+                            <br>power when they display mastery of their profession by answering career related questions.</p>
                     </div>
                     <div class="col-lg-8 mx-auto">
                         <div class="banner-search-box mt-40">
@@ -102,55 +103,6 @@
             </div>
         </section>
         <!--================End Bannner Area =================-->
-
-        <!--================Ama Statistics Area =================-->
-        <section class="forum-statistics">
-            <div class="container">
-                <div class="row align-items-center gy-lg-0 gy-4">
-                    <div class="col-lg-8">
-                        <div class="row gy-4 gy-sm-0">
-                            <div class="col-sm-4">
-                                <div
-                                    class="statistics-widget wow fadeInRight justify-content-center justify-content-sm-start">
-                                    <img src="img/home_two/icon-1.svg" alt="icon">
-                                    <div>
-                                        <h4>
-                                            <span class="counter d-inline-block">1099</span>+
-                                        </h4>
-                                        <p>members</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-4">
-                                <div class="statistics-widget wow fadeInRight justify-content-center justify-content-sm-start"
-                                    data-wow-delay="0.3s">
-                                    <img src="img/home_two/icon-2.svg" alt="icon">
-                                    <div>
-                                        <h4 class="counter">5099</h4>
-                                        <p>posts</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-4">
-                                <div class="statistics-widget wow fadeInRight justify-content-center justify-content-sm-start"
-                                    data-wow-delay="0.6s">
-                                    <img src="img/home_two/icon-3.svg" alt="icon">
-                                    <div>
-                                        <h4 class="counter">255</h4>
-                                        <p>online</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 text-lg-end text-center wow fadeInLeft" data-wow-delay="0.3s">
-                        <a class="action_btn btn_bg round-btn" href="#">Get Started</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--================End Ama Statistics Area =================-->
 
         <!--================Feature Two Area =================-->
         <section class="feature-two">
@@ -184,139 +136,143 @@
                     <div class="col-12">
                         <div class="section_title text-start">
                             <h2 class="h_title wow fadeInUp">Frequency Asked Questions</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In!</p>
                         </div>
                         <div class="choose-content">
                             <div class="accordion" id="accordionExample">
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingOne" >
                                         <button style="font-size: 18px; font-weight: 600;" class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                            What does {{config('app.name')}} do?
+                                            What is {{config('app.name')}}?
                                         </button>
                                     </h2>
                                     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            Basically, we provide custom made IT solutions for clients in different industries. Secondly, we train those interested in acquiring tech skills till they become experts and lastly, we assist businesses and individuals by offering consultation sessions where we identify their IT needs and proffer the best guidance.
+                                            {{config('app.name')}} is a unique initiative that helps Nigerians and other Africans increase their earning 
+                                            power when they display mastery of their profession by answering career related questions.
                                         </div>
                                     </div>
                                 </div>
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingTwo">
                                         <button style="font-size: 18px; font-weight: 600;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                            What product can {{config('app.name')}} build for me?
+                                            Why {{config('app.name')}}?
                                         </button>
                                     </h2>
                                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            We develop software tailored to your business needs and we build a fully controlled website that accommodates all your personal or business offerings.    
+                                            Millions of qualified Nigerians are currently unemployed. Many employed people even feel they 
+                                            deserve more. What's worse? There's no platform for them to swiftly earn better, express their 
+                                            ability and connect with potential employers.
+                                            {{config('app.name')}} bridges this gap by providing an all-inclusive place for digitally skilled individuals to 
+                                            earn.
                                         </div>
                                     </div>
                                 </div>
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingThree">
                                         <button style="font-size: 18px; font-weight: 600;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                            My website and app are not functioning properly, how can {{config('app.name')}} help?
+                                            Who is {{config('app.name')}} for?
                                         </button>
                                     </h2>
                                     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            When you book a consultation session with us, our representative will schedule a call with you and audit the affected digital platform to understand what exactly is wrong. Once the problem is ascertained, we will present a probable solution and start work on it immediately.
+                                        {{config('app.name')}} is for Nigerians and other Africans who are either unemployed or underemployed. It's also for gamers, quiz enthusiasts and people who love to bet.
                                         </div>
                                     </div>
                                 </div>
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingFour">
                                         <button style="font-size: 18px; font-weight: 600;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                            How can I ensure my website or software is up-to-date?
+                                            Is {{config('app.name')}} relevant to all careers
                                         </button>
                                     </h2>
                                     <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                        {{config('app.name')}} doesn't just build websites, develop software or train upcoming tech gurus. We also provide routine maintenance for your digital platforms to ensure all parts function optimally.
+                                            {{config('app.name')}} mainly caters for some categories which include IT, Digital Marketing and Startups.
                                         </div>
                                     </div>
                                 </div>
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingFive">
                                         <button style="font-size: 18px; font-weight: 600;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                            What technologies do {{config('app.name')}} use in development?
+                                            How do I participate in {{config('app.name')}} games?
                                         </button>
                                     </h2>
                                     <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            We employ a variety of programming options e.g. Java, JavaScript. Python etc. to provide the best solution and our team which consists of highly experienced and sort after professionals help in deploying these technologies.
+                                            It's simple! Create an account and access your dashboard. On your dashboard, start a game and pay the token to start. After that, you will see an instruction and a sample question and immediately you're done you can start answering the main questions.
                                         </div>
                                     </div>
                                 </div>
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingSix">
                                         <button style="font-size: 18px; font-weight: 600;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                            How long does it take {{config('app.name')}} to build a custom made website?
+                                            How much do I need to pay to access a {{config('app.name')}} game?
                                         </button>
                                     </h2>
                                     <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            There are different websites with different scopes and complexities. So, there's no 'one cap fits all' duration for all the websites we build. However, a website development project will not take us two weeks to a month before it's delivered to you. On special occasions might be longer depending on requirements/complexities.
+                                            A game is just N500.
                                         </div>
                                     </div>
                                 </div>
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingSeven">
                                         <button style="font-size: 18px; font-weight: 600;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                                            How long does it take {{config('app.name')}} to develop a software?
+                                            What's the maximum amount I can earn per game?
                                         </button>
                                     </h2>
                                     <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            Just like a website, there's no particular duration for the completion of all categories of software but we can guarantee that you will have it handed over to in 4 to 6 weeks. This can sometimes be longer depending on requirements/complexities.
+                                            You can earn as much as N50,000 per game.
                                         </div>
                                     </div>
                                 </div>
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingEight">
                                         <button style="font-size: 18px; font-weight: 600;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                                            What's the duration of {{config('app.name')}}'s training?
+                                            How do I withdraw my earnings?
                                         </button>
                                     </h2>
                                     <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            The duration of training depends on the course you opt-in for. However, our courses duration ranges from 4 weeks to 6 months.
+                                            If you satisfy all conditions, withdrawing your money is very easy. Simply click on "My earnings" and indicate the amount you wish to withdraw. After that, choose the payment method from the options listed and follow the prompt. Only note that, your money will be paid into your verified account.
                                         </div>
                                     </div>
                                 </div>
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingNine">
                                         <button style="font-size: 18px; font-weight: 600;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
-                                            What IT Courses Can I be trained on?
+                                            Is {{config('app.name')}} legit?
                                         </button>
                                     </h2>
                                     <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            With us you can learn and become proficient in Project/Product Management, Business Analysis, Digital Marketing, Software Development, Web Development, Full stack Development etc. Also, you can learn individual programming languages such as Python, PHP, Java, JavaScript, HTML, CSS, React Node, React JS and so on.
+                                            Yes, it is. The idea is not to extort you but to make you express your knowledge and earn from it. Aside that, we are registered with the Corporate Affairs Commission (CAC) and we have a strong legal backing.
                                         </div>
                                     </div>
                                 </div>
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingTen">
                                         <button style="font-size: 18px; font-weight: 600;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
-                                            How will the course material be delivered?
+                                            Is {{config('app.name')}} a betting platform?
                                         </button>
                                     </h2>
                                     <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            All our courses are delivered online which means you can attend classes remotely and at your preferred location.
+                                            No, it isn't a gambling platform. Among other benefits, {{config('app.name')}} helps you earn from your knowledge and referral of other members.
                                         </div>
                                     </div>
                                 </div>
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingEleven">
                                         <button style="font-size: 18px; font-weight: 600;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
-                                            Can I trust the quality of the training?
+                                            What other benefits will I enjoy as a Trivhunt member?
                                         </button>
                                     </h2>
                                     <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            Absolutely! Our courses are taught by industry practitioners who will not only impact you with theoretical concepts but also take you through the rigours of practicals so that you can be equipped for real world problems.
+                                        Apart from earning directly from your knowledge and new members' referral, you will accumulate points to indicate how proficient you are in your field. In return, your points will facilitate your discovery by potential employers and as a result, you can be employed on a full-time position and if you are a freelancer, you can close deals.
                                         </div>
                                     </div>
                                 </div>
@@ -371,7 +327,7 @@
                     <div class="row gy-lg-0 gy-4">
                         <div class="col-lg-4 col-sm-6 wow fadeInLeft">
                             <div class="footer-widget pr-20">
-                                <a href="/"> <img src="" alt="logo"></a>
+                                <a href="/"> <img src="{{URL::asset('img/logo-w.png')}}" alt="logo"></a>
                                 <p class="f-text mt-55">A short note about {{config('app.name')}}</p>
                             </div>
                         </div>
