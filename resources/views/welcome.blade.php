@@ -328,7 +328,7 @@
                         <div class="col-lg-4 col-sm-6 wow fadeInLeft">
                             <div class="footer-widget pr-20">
                                 <a href="/"> <img src="{{URL::asset('img/logo-w.png')}}" alt="logo"></a>
-                                <p class="f-text mt-55">A short note about {{config('app.name')}}</p>
+                                <p class="f-text mt-55">{{config('app.name')}} is a unique initiative that helps Nigerians and other Africans increase their earning power when they display mastery of their profession by answering career related questions.</p>
                             </div>
                         </div>
                         <div class="col-lg-2 ps-xl-4 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
