@@ -118,7 +118,7 @@
                         <div class="feature-content-text wow fadeInRight mt-4 mt-xl-0">
                             <h2>Activate daily notifications and never miss a thing</h2>
                             <p>Please make sure you read the forum guidelines and Frequently Asked Questions before
-                                contributing to WordPress support, both when asking for and giving support, this helps
+                                contributing to {{config('app.name')}} support, both when asking for and giving support, this helps
                                 maintain a friendly and welcoming atmosphere for all involved. I asked this writer for a
                                 guest post, which he seemed happy to write for me.</p>
                         </div>
