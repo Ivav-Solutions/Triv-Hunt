@@ -21,8 +21,8 @@
         <nav class="navbar navbar-expand-lg  menu_one sticky-nav d-none d-lg-block">
             <div class="container">
                 <a class="navbar-brand header_logo" href="/">
-                    <img class="first_logo sticky_logo" src="{{URL::asset('img/logo.png')}}" srcset="img/logo-2x.png 2x" alt="logo">
-                    <img class="white_logo main_logo" src="{{URL::asset('img/logo-w.png')}}" srcset="img/logo-w2x.png 2x" alt="logo">
+                    <img class="first_logo sticky_logo" src="{{URL::asset('img/logo.png')}}" srcset="img/logo.png 1x" alt="logo">
+                    <img class="white_logo main_logo" src="{{URL::asset('img/logo-w.png')}}" srcset="img/logo-w.png 1x" alt="logo">
                 </a>
 
 
@@ -50,8 +50,8 @@
                         </span>
                     </button>
                     <a class="navbar-brand header_logo" href="/">
-                        <img class="sticky_logo " src="{{URL::asset('img/logo.png')}}" srcset="img/logo-2x.png 2x" alt="logo">
-                        <img class="main_logo white_logo" src="{{URL::asset('img/logo-w.png')}}" srcset="img/logo-w2x.png 2x" alt="logo">
+                        <img class="sticky_logo " src="{{URL::asset('img/logo.png')}}" srcset="img/logo.png 1x" alt="logo">
+                        <img class="main_logo white_logo" src="{{URL::asset('img/logo-w.png')}}" srcset="img/logo-w.png 1x" alt="logo">
                     </a>
                 </div>
             </div>
@@ -63,8 +63,8 @@
                 </div>
                 <div class="mobile_logo">
                     <a class="navbar-brand header_logo me-0" href="/">
-                        <img class="sticky_logo main_logo" src="{{URL::asset('img/logo.png')}}" srcset="img/logo-2x.png 2x" alt="logo">
-                        <img class="white_logo" src="{{URL::asset('img/logo-2.png')}}" srcset="img/logo-w2x.png 2x" alt="logo">
+                        <img class="sticky_logo main_logo" src="{{URL::asset('img/logo.png')}}" srcset="img/logo.png 1x" alt="logo">
+                        <img class="white_logo" src="{{URL::asset('img/logo-w.png')}}" srcset="img/logo-w.png 1x" alt="logo">
                     </a>
                 </div>
             </div>
@@ -105,14 +105,12 @@
         <!--================End Bannner Area =================-->
 
         <!--================Feature Two Area =================-->
-        <!-- <section class="feature-two">
+        <section class="feature-two">
             <div class="container">
                 <div class="row align-items-center gy-4 gy-lg-0">
                     <div class="col-lg-6 order-lg-2 ps-lg-4 text-center text-lg-start  offset-xl-1">
                         <div class="img-content wow fadeInLeft">
-                            <img class="img-fluid" src="img/home_two/daily-notification.png" alt="post">
-                            <img src="img/home_two/scribbles-scribbles-43.png" alt="shape">
-                            <img class="bg-img" src="img/home_two/daily-notification-bg.png" alt="bg">
+                            <img class="bg-img" src="img/trivhunt.png" alt="bg">
                         </div>
 
                     </div>
@@ -127,7 +125,7 @@
                     </div>
                 </div>
             </div>
-        </section> -->
+        </section>
         <!--================End Feature Two Area =================-->
 
         <sectiom class="feature-two">
@@ -141,7 +139,7 @@
                             <div class="accordion" id="accordionExample">
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingOne" >
-                                        <button style="font-size: 18px; font-weight: 600;" class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        <button style="font-size: 18px; font-weight: 600; color: #551BA6" class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                             What is {{config('app.name')}}?
                                         </button>
                                     </h2>
@@ -360,7 +358,10 @@
                 </div>
                 <div class="footer-bottom pt-40 pb-40">
                     <div class="d-flex justify-content-between flex-wrap">
-                        <p class="wow fadeInRight">Copyright 2021, All Rights Reserved</p>
+                        <p class="wow fadeInRight">Copyright 
+                            <script>
+                                document.write(new Date().getFullYear())
+                            </script>, All Rights Reserved</p>
                     </div>
                 </div>
             </div>
