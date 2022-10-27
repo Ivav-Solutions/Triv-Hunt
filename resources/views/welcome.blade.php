@@ -1,383 +1,386 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="shortcut icon" href="{{URL::asset('img/favicon.png')}}" type="image/x-icon">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style-main.css">
-    <link rel="stylesheet" href="css/responsive.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{config('app.name')}}</title>
+
+    <link rel=icon href="{{URL::asset('assets/img/favicon.png')}} sizes="20x20" type="image/png">
+
+    <!-- <link rel="stylesheet" href="assets/css/animate.css"> -->
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!-- <link rel="stylesheet" href="assets/css/magnific-popup.css"> -->
+
+    <!-- <link rel="stylesheet" href="assets/css/owl.carousel.min.css"> -->
+
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="assets/css/flaticon.css">
+
+    <!-- <link rel="stylesheet" href="assets/css/hover-min.css"> -->
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
 
-<body data-scroll-animation="true">
-    <div class="body_wrapper">
-        <div class="click_capture"></div>
+<body>
 
-        <!--================Navbar Area =================-->
-        <nav class="navbar navbar-expand-lg  menu_one sticky-nav d-none d-lg-block">
-            <div class="container">
-                <a class="navbar-brand header_logo" href="/">
-                    <img class="first_logo sticky_logo" src="{{URL::asset('img/logo.png')}}" srcset="img/logo-2x.png 2x" alt="logo">
-                    <img class="white_logo main_logo" src="{{URL::asset('img/logo-w.png')}}" srcset="img/logo-w2x.png 2x" alt="logo">
-                </a>
+    <div class="preloader" id="preloader">
+        <div class="preloader-inner">
+            <div></div>
+            <hr />
+        </div>
+    </div>
 
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav menu ms-auto">
-                        <li class="nav-item dropdown submenu active">
-                            <a href="/" class="nav-link dropdown-toggle">Home</a>
-                            <i class="arrow_carrot-down_alt2 mobile_dropdown_icon" aria-hidden="false"
-                                data-bs-toggle="dropdown"></i>
+    <div class="header-style-01">
+        <nav class="navbar navbar-area navbar-expand-lg nav-style-02">
+            <div class="container nav-container sass-nav">
+                <div class="responsive-mobile-menu">
+                    <div class="logo-wrapper">
+                        <a href="/" class="logo">
+                            <img src="{{URL::asset('assets/img/logo.png')}}" alt="">
+                        </a>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bizcoxx_main_menu" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="bizcoxx_main_menu">
+                    <ul class="navbar-nav">
+                        <li class="current-menu-item">
+                            <a href="#">Home</a>
                         </li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#faqs">FAQs</a></li>
                     </ul>
+                </div>
+                <div class="nav-right-content">
+                    <div class="btn-wrapper">
+                        <a href="#contactus" class="boxed-btn btn-brand white">Contact US</a>
+                    </div>
                 </div>
             </div>
         </nav>
-        <div class="mobile_main_menu sticky-nav menu_one">
-            <div class="container">
-                <div class="mobile_menu_left">
-                    <button type="button" class="navbar-toggler mobile_menu_btn">
-                        <span class="menu_toggle ">
-                            <span class="hamburger">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </span>
-                        </span>
-                    </button>
-                    <a class="navbar-brand header_logo" href="/">
-                        <img class="sticky_logo " src="{{URL::asset('img/logo.png')}}" srcset="img/logo-2x.png 2x" alt="logo">
-                        <img class="main_logo white_logo" src="{{URL::asset('img/logo-w.png')}}" srcset="img/logo-w2x.png 2x" alt="logo">
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="side_menu">
-            <div class="mobile_menu_header">
-                <div class="close_nav">
-                    <i class="icon_close"></i>
-                </div>
-                <div class="mobile_logo">
-                    <a class="navbar-brand header_logo me-0" href="/">
-                        <img class="sticky_logo main_logo" src="{{URL::asset('img/logo.png')}}" srcset="img/logo-2x.png 2x" alt="logo">
-                        <img class="white_logo" src="{{URL::asset('img/logo-2.png')}}" srcset="img/logo-w2x.png 2x" alt="logo">
-                    </a>
-                </div>
-            </div>
-            <div class="mobile_nav_wrapper">
-                <nav class="mobile_nav_top">
-                    <ul class="navbar-nav menu ms-auto">
-                        <li class="nav-item dropdown submenu active">
-                            <a href="/" class="nav-link dropdown-toggle">Home</a>
-                            <i class="arrow_carrot-down_alt2 mobile_dropdown_icon"></i>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-        <!--================Banner Area =================-->
-        <section class="banner-area-3 has_search">
-            <div class="container">
-                <div class="row doc_banner_content">
-                    <div class="col-12 px-0">
-                        <h1 class="banner-title-h1">Welcome to {{config('app.name')}}</h1>
-                        <p class="banner-text-p">{{config('app.name')}} is a unique initiative that helps Nigerians and other Africans increase their earning 
-                            <br>power when they display mastery of their profession by answering career related questions.</p>
-                    </div>
-                    <div class="col-lg-8 mx-auto">
-                        <div class="banner-search-box mt-40">
-                            <form action="#">
-                                <div class="input-wrapper">
-                                    <input placeholder="Search your forum of topic here..." type='search' id="searchbox"
-                                        autocomplete="off" name="search">
-                                    <button type="submit" class="search-btn">Search</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--================End Bannner Area =================-->
-
-        <!--================Feature Two Area =================-->
-        <!-- <section class="feature-two">
-            <div class="container">
-                <div class="row align-items-center gy-4 gy-lg-0">
-                    <div class="col-lg-6 order-lg-2 ps-lg-4 text-center text-lg-start  offset-xl-1">
-                        <div class="img-content wow fadeInLeft">
-                            <img class="img-fluid" src="img/home_two/daily-notification.png" alt="post">
-                            <img src="img/home_two/scribbles-scribbles-43.png" alt="shape">
-                            <img class="bg-img" src="img/home_two/daily-notification-bg.png" alt="bg">
-                        </div>
-
-                    </div>
-                    <div class="col-xl-5 col-lg-6 pe-xl-0 order-lg-1">
-                        <div class="feature-content-text wow fadeInRight mt-4 mt-xl-0">
-                            <h2>Activate daily notifications and never miss a thing</h2>
-                            <p>Please make sure you read the forum guidelines and Frequently Asked Questions before
-                                contributing to WordPress support, both when asking for and giving support, this helps
-                                maintain a friendly and welcoming atmosphere for all involved. I asked this writer for a
-                                guest post, which he seemed happy to write for me.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-        <!--================End Feature Two Area =================-->
-
-        <sectiom class="feature-two">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-12">
-                        <div class="choose-content mt-5">
-                            <div class="section_title text-start">
-                                <h2 class="h_title wow fadeInUp">Frequency Asked Questions</h2>
-                            </div>
-                            <div class="accordion" id="accordionExample">
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingOne" >
-                                        <button style="font-size: 18px; font-weight: 600;" class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                            What is {{config('app.name')}}?
-                                        </button>
-                                    </h2>
-                                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            {{config('app.name')}} is a unique initiative that helps Nigerians and other Africans increase their earning 
-                                            power when they display mastery of their profession by answering career related questions.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingTwo">
-                                        <button style="font-size: 18px; font-weight: 600;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                            Why {{config('app.name')}}?
-                                        </button>
-                                    </h2>
-                                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            Millions of qualified Nigerians are currently unemployed. Many employed people even feel they 
-                                            deserve more. What's worse? There's no platform for them to swiftly earn better, express their 
-                                            ability and connect with potential employers.
-                                            {{config('app.name')}} bridges this gap by providing an all-inclusive place for digitally skilled individuals to 
-                                            earn.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingThree">
-                                        <button style="font-size: 18px; font-weight: 600;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                            Who is {{config('app.name')}} for?
-                                        </button>
-                                    </h2>
-                                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                        {{config('app.name')}} is for Nigerians and other Africans who are either unemployed or underemployed. It's also for gamers, quiz enthusiasts and people who love to bet.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingFour">
-                                        <button style="font-size: 18px; font-weight: 600;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                            Is {{config('app.name')}} relevant to all careers
-                                        </button>
-                                    </h2>
-                                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            {{config('app.name')}} mainly caters for some categories which include IT, Digital Marketing and Startups.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingFive">
-                                        <button style="font-size: 18px; font-weight: 600;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                            How do I participate in {{config('app.name')}} games?
-                                        </button>
-                                    </h2>
-                                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            It's simple! Create an account and access your dashboard. On your dashboard, start a game and pay the token to start. After that, you will see an instruction and a sample question and immediately you're done you can start answering the main questions.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingSix">
-                                        <button style="font-size: 18px; font-weight: 600;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                            How much do I need to pay to access a {{config('app.name')}} game?
-                                        </button>
-                                    </h2>
-                                    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            A game is just N500.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingSeven">
-                                        <button style="font-size: 18px; font-weight: 600;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                                            What's the maximum amount I can earn per game?
-                                        </button>
-                                    </h2>
-                                    <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            You can earn as much as N50,000 per game.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingEight">
-                                        <button style="font-size: 18px; font-weight: 600;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                                            How do I withdraw my earnings?
-                                        </button>
-                                    </h2>
-                                    <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            If you satisfy all conditions, withdrawing your money is very easy. Simply click on "My earnings" and indicate the amount you wish to withdraw. After that, choose the payment method from the options listed and follow the prompt. Only note that, your money will be paid into your verified account.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingNine">
-                                        <button style="font-size: 18px; font-weight: 600;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
-                                            Is {{config('app.name')}} legit?
-                                        </button>
-                                    </h2>
-                                    <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            Yes, it is. The idea is not to extort you but to make you express your knowledge and earn from it. Aside that, we are registered with the Corporate Affairs Commission (CAC) and we have a strong legal backing.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingTen">
-                                        <button style="font-size: 18px; font-weight: 600;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
-                                            Is {{config('app.name')}} a betting platform?
-                                        </button>
-                                    </h2>
-                                    <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            No, it isn't a gambling platform. Among other benefits, {{config('app.name')}} helps you earn from your knowledge and referral of other members.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingEleven">
-                                        <button style="font-size: 18px; font-weight: 600;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
-                                            What other benefits will I enjoy as a Trivhunt member?
-                                        </button>
-                                    </h2>
-                                    <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                        Apart from earning directly from your knowledge and new members' referral, you will accumulate points to indicate how proficient you are in your field. In return, your points will facilitate your discovery by potential employers and as a result, you can be employed on a full-time position and if you are a freelancer, you can close deals.
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </sectiom>
-
-        <section class="contact_area sec_pad">
-            <div class="container">
-                <div class="contact_info">
-                    <div class="section_title text-start">
-                        <h2 class="h_title wow fadeInUp">Let’s start the conversation</h2>
-                        <p>Please email us, we’ll happy to assist you.</p>
-                    </div>
-                    <form action="#" class="contact_form">
-                        <div class="row contact_fill">
-                            <div class="col-lg-4 form-group">
-                                <h6>Full Name</h6>
-                                <input type="text" class="form-control" name="name" id="name"
-                                    placeholder="Enter your name here">
-                            </div>
-                            <div class="col-lg-4 form-group">
-                                <h6>Email</h6>
-                                <input type="email" class="form-control" name="email" id="email"
-                                    placeholder="info@Foram.com">
-                            </div>
-                            <div class="col-lg-4 form-group">
-                                <h6>Phone no</h6>
-                                <input type="tel" class="form-control" name="tel" id="phone" placeholder="+462">
-                            </div>
-                            <div class="col-lg-12 form-group">
-                                <h6>Message</h6>
-                                <textarea class="form-control message" id="message"
-                                    placeholder="Enter Your Text ..."></textarea>
-                            </div>
-                            <div class="col-lg-12 form-group">
-                                <button type="submit" class="btn action_btn thm_btn">Send Message</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </section>
-
-        <!--================Footer Area =================-->
-        <footer class="footer-3 ">
-            <div class="container">
-                <div class="footer-top pt-80 pb-20">
-                    <div class="row gy-lg-0 gy-4">
-                        <div class="col-lg-4 col-sm-6 wow fadeInLeft">
-                            <div class="footer-widget pr-20">
-                                <a href="/"> <img src="{{URL::asset('img/logo-w.png')}}" alt="logo"></a>
-                                <p class="f-text mt-55">{{config('app.name')}} is a unique initiative that helps Nigerians and other Africans increase their earning power when they display mastery of their profession by answering career related questions.</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 ps-xl-4 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
-                            <div class="footer-widget ps-lg-5">
-                                <h6 class="widget-title mb-4">Company</h6>
-                                <ul class="link-list list-unstyled">
-                                    <li><a href="/">Home</a></li>
-                                    <li><a href="#">About</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
-                            <div class="footer-widget pl-lg-90">
-                                <h6 class="widget-title mb-4">Help</h6>
-                                <ul class="link-list list-unstyled">
-                                    <li><a href="#">FAQs</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
-                            <div class="footer-widget ps-lg-3">
-                                <h6 class="widget-title mb-4">Get Help</h6>
-                                <ul class="link-list list-unstyled">
-                                    <li><a href="#">Contact</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="footer-bottom pt-40 pb-40">
-                    <div class="d-flex justify-content-between flex-wrap">
-                        <p class="wow fadeInRight">Copyright 2021, All Rights Reserved</p>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!--================End Footer Area =================-->
     </div>
 
-    <!-- Back to top button -->
-    <a id="back-to-top" title="Back to Top"></a>
+    <div class="header-area header-brand">
+        <div class="sass-bg-img wow animate__animated animate__zoomIn" data-parallax='{"x": 220, "y": 150}' style="background-image:url(assets/img/header-slider/brand/01.png);"></div>
+        <div class="shape"></div>
+        <div class="shape-02"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="header-inner">
+                        <h3 class="title">A new brand of creatives. create orginal and mind blowing ideas</h3>
+                        <div class="btn-wrapper padding-top-30">
+                            <a href="#" class="boxed-btn btn-brand">Get Started</a>
+                        </div>
+                    </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="js/jquery-3.5.1.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="js/jquery.parallax-scroll.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="how-it-work-area padding-bottom-120 padding-top-120">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="section-title startup desktop-center margin-bottom-55">
+                        <h3 class="title">How it works</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="how-it-single-item">
+                        <div class="icon style-01">
+                            <span class="day">1</span>
+                        </div>
+                        <div class="content">
+                            <h4 class="title">Create Account</h4>
+                            <p>Each time a digital asset is purchased or sold, Sequoir donates a percentage of the fees back </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="how-it-single-item">
+                        <div class="icon style-01">
+                            <span class="day">2</span>
+                        </div>
+                        <div class="content">
+                            <h4 class="title">Fill The Form</h4>
+                            <p>Each time a digital asset is purchased or sold, Sequoir donates a percentage of the fees back </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="how-it-single-item">
+                        <div class="icon style-01">
+                            <span class="day">3</span>
+                        </div>
+                        <div class="content">
+                            <h4 class="title">Lets Enjoy</h4>
+                            <p>Each time a digital asset is purchased or sold, Sequoir donates a percentage of the fees back </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="about" class="call-to-action-area bg-image">
+        <div class="container">
+            <div class="call-to-action-inner style-05">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="call-action-img">
+                            <img src="{{URL::asset('assets/img/action.png')}}" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="call-to-action-content">
+                            <h2 class="title">{{config('app.name')}} Made for You</h2>
+                            <p class="subtitle">Each time a digital asset is purchased or sold, Sequoir donates a percentage of the fees back.</p>
+                            <div class="apps-download">
+                                <div class="download-img">
+                                    <a href=""> <img src="{{URL::asset('assets/img/01.png')}}" alt=""></a>
+                                </div>
+                                <div class="download-img style-01">
+                                    <a href=""> <img src="{{URL::asset('assets/img/02.png')}}" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="faqs" class="accoridions padding-top-310 padding-bottom-120">
+        <div class="container">
+            <div class="row justify-content-center padding-bottom-50">
+                <div class="col-lg-8 col-md-12">
+                    <div class="section-title desktop-center">
+                        <h2 class="title">Frequently asked quetions</h2>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="accordion-wrapper">
+
+                        <div id="accordion">
+                            <div class="card">
+                                <div class="card-header" id="headingOwo">
+                                    <h5 class="mb-0">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapseOwo" aria-expanded="false" aria-controls="collapseOwo">
+                                            How can I customize each pattern?
+                                        </a>
+                                    </h5>
+                                </div>
+                                <div id="collapseOwo" class="collapse" data-parent="#accordion">
+                                    <div class="card-body">
+                                        You may have as many domains as you want; in fact, buying domains similar to your original domain—like misspellings or additional domain extensions—is something we advise in order to protect your brand.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingTwo">
+                                    <h5 class="mb-0">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseOwo">
+                                            Do you offer discounts?
+                                        </a>
+                                    </h5>
+                                </div>
+                                <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                                    <div class="card-body">
+                                        You may have as many domains as you want; in fact, buying domains similar to your original domain—like misspellings or additional domain extensions—is something we advise in order to protect your brand.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingThree">
+                                    <h5 class="mb-0">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseOwo">
+                                            Can I cancel a subscription at any time?
+                                        </a>
+                                    </h5>
+                                </div>
+                                <div id="collapseThree" class="collapse" data-parent="#accordion">
+                                    <div class="card-body">
+                                        You may have as many domains as you want; in fact, buying domains similar to your original domain—like misspellings or additional domain extensions—is something we advise in order to protect your brand.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingFour">
+                                    <h5 class="mb-0">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                            Can I refund my money?
+                                        </a>
+                                    </h5>
+                                </div>
+                                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                                    <div class="card-body">
+                                        You may have as many domains as you want; in fact, buying domains similar to your original domain—like misspellings or additional domain extensions—is something we advise in order to protect your brand.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contactus" class="contact-inner-area padding-bottom-90">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="content-area">
+                        <div class="section-title padding-bottom-25">
+                            <h4 class="title">Let’s scale your brand, together</h4>
+                        </div>
+                        <div class="single-contact-item-02">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 offset-lg-3">
+                    <div class="contact-form style-01">
+                        <form action="contact.php" id="contact_page_form" class="contact-page-form" method="post" novalidate="novalidate">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="name">Name <span>*</span></label>
+                                        <input type="text" name="name" placeholder="Type Name" class="form-control" required="" aria-required="true" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABHklEQVQ4EaVTO26DQBD1ohQWaS2lg9JybZ+AK7hNwx2oIoVf4UPQ0Lj1FdKktevIpel8AKNUkDcWMxpgSaIEaTVv3sx7uztiTdu2s/98DywOw3Dued4Who/M2aIx5lZV1aEsy0+qiwHELyi+Ytl0PQ69SxAxkWIA4RMRTdNsKE59juMcuZd6xIAFeZ6fGCdJ8kY4y7KAuTRNGd7jyEBXsdOPE3a0QGPsniOnnYMO67LgSQN9T41F2QGrQRRFCwyzoIF2qyBuKKbcOgPXdVeY9rMWgNsjf9ccYesJhk3f5dYT1HX9gR0LLQR30TnjkUEcx2uIuS4RnI+aj6sJR0AM8AaumPaM/rRehyWhXqbFAA9kh3/8/NvHxAYGAsZ/il8IalkCLBfNVAAAAABJRU5ErkJggg==&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%;">
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="phone">Phone <span>*</span></label>
+                                        <input type="text" name="phone" placeholder="Type Phone Number" class="form-control" required="" aria-required="true">
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="email">Email Address <span>*</span></label>
+                                        <input type="text" name="email" placeholder="Type Email Address" class="form-control" required="" aria-required="true">
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="message">How can we help? <span>*</span></label>
+                                        <textarea name="message" id="msg" cols="1" rows="4" placeholder="Type Desciption"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="submit" value="Send Message" class="submit-btn">
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer-area">
+        <div class="footer-top style-04 padding-top-85 padding-bottom-50">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <div class="footer-widget widget">
+                            <div class="about_us_widget">
+                                <a href="/" class="footer-logo"> <img src="{{URL::asset('assets/img/logo.png')}}" alt="footer logo"></a>
+                            </div>
+                        </div>
+                        <div class="widget widget_nav_menu">
+                            <p>Trivhunt is a unique initiative that helps Nigerians and other Africans increase their earning power when they display mastery of their profession by answering career related questions.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <div class="footer-widget style-01 widget widget_nav_menu">
+                            <h4 class="widget-title">Company</h4>
+                            <ul>
+                                <li><a href="/">Home</a></li>
+                                <li><a href="#about">About Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <div class="footer-widget style-01 widget widget_nav_menu">
+                            <h4 class="widget-title">Help</h4>
+                            <ul>
+                                <li><a href="#faqs">FAQs</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <div class="footer-widget style-01 widget widget_nav_menu">
+                            <h4 class="widget-title">Get In Touch</h4>
+                            <ul>
+                                <li><a href="#contactus">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-area style-03">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="copyright-area-inner">
+                            © Copyrights {{ date('Y') }} {{config('app.name')}} All rights reserved.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <div class="back-to-top">
+        <span class="back-top"><i class="fa fa-angle-up"></i></span>
+    </div>
+
+
+    <script src="assets/js/jquery-2.2.4.min.js"></script>
+
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- <script src="assets/js/jquery.magnific-popup.js"></script> -->
+
+    <!-- <script src="assets/js/wow.min.js"></script> -->
+
+    <!-- <script src="assets/js/owl.carousel.min.js"></script> -->
+
+    <!-- <script src="assets/js/waypoints.min.js"></script> -->
+
+    <!-- <script src="assets/js/jquery.counterup.min.js"></script> -->
+
+    <!-- <script src="assets/js/jquery.ripples-min.js"></script> -->
+
+    <!-- <script src="assets/js/tilt.jquery.js"></script> -->
+
+    <!-- <script src="assets/js/imagesloaded.pkgd.min.js"></script> -->
+
+    <!-- <script src="assets/js/isotope.pkgd.min.js"></script> -->
+
+    <script src="assets/js/parallax.js"></script>
+
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
