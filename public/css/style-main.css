@@ -3810,7 +3810,7 @@ p kbd {
         color: #bbc0c4;
         font-size: 14px; }
     .banner-area-3 .banner-search-box .input-wrapper .search-btn {
-      background-color: #4a6ee0;
+      background-color: #551BA6;
       color: #fff;
       font-family: Roboto;
       font-size: 16px;
@@ -9048,9 +9048,9 @@ input[type="number"] {
       top: 19%;
       right: -20.5%; }
     .feature-two .img-content .bg-img {
-      position: absolute;
+      position: relative;
       top: -33%;
-      left: -25.5%;
+      /* left: -25.5%; */
       z-index: -1; }
 
 /*---------------------------------------------------- */
