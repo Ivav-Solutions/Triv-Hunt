@@ -8,25 +8,17 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{config('app.name')}}</title>
 
-    <link rel=icon href="{{URL::asset('assets/img/favicon.png')}} sizes="20x20" type="image/png">
+    <link rel=icon href="{{URL::asset('assets/img/favicon.png')}}" sizes="20x20" type="image/png">
 
-    <!-- <link rel="stylesheet" href="assets/css/animate.css"> -->
+    <link rel="stylesheet" href="{{URL::asset('assets/css/bootstrap.min.css')}}">
 
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{URL::asset('assets/css/font-awesome.min.css')}}">
 
-    <!-- <link rel="stylesheet" href="assets/css/magnific-popup.css"> -->
+    <link rel="stylesheet" href="{{URL::asset('assets/css/flaticon.css')}}">
 
-    <!-- <link rel="stylesheet" href="assets/css/owl.carousel.min.css"> -->
+    <link rel="stylesheet" href="{{URL::asset('assets/css/style.css')}}">
 
-    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-
-    <link rel="stylesheet" href="assets/css/flaticon.css">
-
-    <!-- <link rel="stylesheet" href="assets/css/hover-min.css"> -->
-
-    <link rel="stylesheet" href="assets/css/style.css">
-
-    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="{{URL::asset('assets/css/responsive.css')}}">
 </head>
 
 <body>
@@ -62,7 +54,7 @@
                 </div>
                 <div class="nav-right-content">
                     <div class="btn-wrapper">
-                        <a href="#contactus" class="boxed-btn btn-brand white">Contact US</a>
+                        <a href="#contactus" class="boxed-btn btn-brand white">Contact Us</a>
                     </div>
                 </div>
             </div>
@@ -140,8 +132,8 @@
             <div class="call-to-action-inner style-05">
                 <div class="row">
                     <div class="col-lg-6">
-                        <div class="call-action-img">
-                            <img src="{{URL::asset('assets/img/action.png')}}" alt="">
+                        <div class="call-action-img offset-lg-2" >
+                            <img src="{{URL::asset('assets/img/action.png')}}" alt="" style="margin-bottom: -5rem;">
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -168,7 +160,7 @@
             <div class="row justify-content-center padding-bottom-50">
                 <div class="col-lg-8 col-md-12">
                     <div class="section-title desktop-center">
-                        <h2 class="title">Frequently asked quetions</h2>
+                        <h2 class="title">Frequently Asked Questions</h2>
                     </div>
 
                 </div>
@@ -182,13 +174,13 @@
                                 <div class="card-header" id="headingOwo">
                                     <h5 class="mb-0">
                                         <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapseOwo" aria-expanded="false" aria-controls="collapseOwo">
-                                            How can I customize each pattern?
+                                            What is {{config('app.name')}}?
                                         </a>
                                     </h5>
                                 </div>
                                 <div id="collapseOwo" class="collapse" data-parent="#accordion">
                                     <div class="card-body">
-                                        You may have as many domains as you want; in fact, buying domains similar to your original domain—like misspellings or additional domain extensions—is something we advise in order to protect your brand.
+                                        {{config('app.name')}} is a unique initiative that helps Nigerians and other Africans increase their earning power when they display mastery of their profession by answering career related questions.
                                     </div>
                                 </div>
                             </div>
@@ -196,13 +188,13 @@
                                 <div class="card-header" id="headingTwo">
                                     <h5 class="mb-0">
                                         <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseOwo">
-                                            Do you offer discounts?
+                                            Why {{config('app.name')}}
                                         </a>
                                     </h5>
                                 </div>
                                 <div id="collapseTwo" class="collapse" data-parent="#accordion">
                                     <div class="card-body">
-                                        You may have as many domains as you want; in fact, buying domains similar to your original domain—like misspellings or additional domain extensions—is something we advise in order to protect your brand.
+                                        Millions of qualified Nigerians are currently unemployed. Many employed people even feel they deserve more. What's worse? There's no platform for them to swiftly earn better, express their ability and connect with potential employers. {{config('app.name')}} bridges this gap by providing an all-inclusive place for digitally skilled individuals to earn.
                                     </div>
                                 </div>
                             </div>
@@ -210,13 +202,13 @@
                                 <div class="card-header" id="headingThree">
                                     <h5 class="mb-0">
                                         <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseOwo">
-                                            Can I cancel a subscription at any time?
+                                            Who is {{config('app.name')}} for?
                                         </a>
                                     </h5>
                                 </div>
                                 <div id="collapseThree" class="collapse" data-parent="#accordion">
                                     <div class="card-body">
-                                        You may have as many domains as you want; in fact, buying domains similar to your original domain—like misspellings or additional domain extensions—is something we advise in order to protect your brand.
+                                        {{config('app.name')}} is for Nigerians and other Africans who are either unemployed or underemployed. It's also for gamers, quiz enthusiasts and people who love to bet.
                                     </div>
                                 </div>
                             </div>
@@ -224,13 +216,111 @@
                                 <div class="card-header" id="headingFour">
                                     <h5 class="mb-0">
                                         <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                            Can I refund my money?
+                                            Is {{config('app.name')}} relevant to all careers?
                                         </a>
                                     </h5>
                                 </div>
                                 <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
                                     <div class="card-body">
-                                        You may have as many domains as you want; in fact, buying domains similar to your original domain—like misspellings or additional domain extensions—is something we advise in order to protect your brand.
+                                        {{config('app.name')}} mainly caters for some categories which include IT, Digital Marketing and Startups.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingFive">
+                                    <h5 class="mb-0">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                            How do I participate in {{config('app.name')}} games?
+                                        </a>
+                                    </h5>
+                                </div>
+                                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                                    <div class="card-body">
+                                        It's simple! Create an account and access your dashboard. On your dashboard, start a game and pay the token to start. After that, you will see an instruction and a sample question and immediately you're done you can start answering the main questions.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingSix">
+                                    <h5 class="mb-0">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                            How much do I need to pay to access a {{config('app.name')}} game?
+                                        </a>
+                                    </h5>
+                                </div>
+                                <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+                                    <div class="card-body">
+                                        A game is just N100.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingSeven">
+                                    <h5 class="mb-0">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                            What's the maximum amount I can earn per game?
+                                        </a>
+                                    </h5>
+                                </div>
+                                <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
+                                    <div class="card-body">
+                                        You can earn as much as N50,000 per game.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingEight">
+                                    <h5 class="mb-0">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                            How do I withdraw my earnings?
+                                        </a>
+                                    </h5>
+                                </div>
+                                <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion">
+                                    <div class="card-body">
+                                        If you satisfy all conditions, withdrawing your money is very easy. Simply click on "My earnings" and indicate the amount you wish to withdraw. After that, choose the payment method from the options listed and follow the prompt. Only note that, your money will be paid into your verified account.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingNine">
+                                    <h5 class="mb-0">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                                            Is {{config('app.name')}} legit?
+                                        </a>
+                                    </h5>
+                                </div>
+                                <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordion">
+                                    <div class="card-body">
+                                        Yes, it is. The idea is not to extort you but to make you express your knowledge and earn from it. Aside that, we are registered with the Corporate Affairs Commission (CAC) and we have a strong legal backing.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingTen">
+                                    <h5 class="mb-0">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                                            Is {{config('app.name')}} a betting platform?
+                                        </a>
+                                    </h5>
+                                </div>
+                                <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordion">
+                                    <div class="card-body">
+                                        No, it isn't a gambling platform. Among other benefits, {{config('app.name')}} helps you earn from your knowledge and referral of other members.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingEleven">
+                                    <h5 class="mb-0">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+                                            What other benefits will I enjoy as a {{config('app.name')}} member?
+                                        </a>
+                                    </h5>
+                                </div>
+                                <div id="collapseEleven" class="collapse" aria-labelledby="headingEleven" data-parent="#accordion">
+                                    <div class="card-body">
+                                        Apart from earning directly from your knowledge and new members' referral, you will accumulate points to indicate how proficient you are in your field. In return, your points will facilitate your discovery by potential employers and as a result, you can be employed on a full-time position and if you are a freelancer, you can close deals.
                                     </div>
                                 </div>
                             </div>
@@ -244,19 +334,20 @@
     <div id="contactus" class="contact-inner-area padding-bottom-90">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3">
+                <div class="col-lg-5">
                     <div class="content-area">
                         <div class="section-title padding-bottom-25">
-                            <h4 class="title">Let’s scale your brand, together</h4>
+                            <h3 class="title">Let’s start the conversation</h3>
+                            <p>Please email us we are happy to assist you</p>
                         </div>
                         <div class="single-contact-item-02">
-
+                        <img src="{{URL::asset('assets/img/contact.png')}}" alt="">
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 offset-lg-3">
+                <div class="col-lg-6 offset-lg-1a">
                     <div class="contact-form style-01">
-                        <form action="contact.php" id="contact_page_form" class="contact-page-form" method="post" novalidate="novalidate">
+                        <form action="" class="contact-page-form" novalidate="novalidate">
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="form-group">
@@ -306,7 +397,7 @@
                             </div>
                         </div>
                         <div class="widget widget_nav_menu">
-                            <p>Trivhunt is a unique initiative that helps Nigerians and other Africans increase their earning power when they display mastery of their profession by answering career related questions.</p>
+                            <p>{{config('app.name')}} is a unique initiative that helps Nigerians and other Africans increase their earning power when they display mastery of their profession by answering career related questions.</p>
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-6 col-sm-6">
@@ -356,31 +447,13 @@
     </div>
 
 
-    <script src="assets/js/jquery-2.2.4.min.js"></script>
+    <script src="{{URL::asset('assets/js/jquery-2.2.4.min.js')}}"></script>
 
-    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="{{URL::asset('assets/js/bootstrap.min.js')}}"></script>
 
-    <!-- <script src="assets/js/jquery.magnific-popup.js"></script> -->
+    <script src="{{URL::asset('assets/js/parallax.js')}}"></script>
 
-    <!-- <script src="assets/js/wow.min.js"></script> -->
-
-    <!-- <script src="assets/js/owl.carousel.min.js"></script> -->
-
-    <!-- <script src="assets/js/waypoints.min.js"></script> -->
-
-    <!-- <script src="assets/js/jquery.counterup.min.js"></script> -->
-
-    <!-- <script src="assets/js/jquery.ripples-min.js"></script> -->
-
-    <!-- <script src="assets/js/tilt.jquery.js"></script> -->
-
-    <!-- <script src="assets/js/imagesloaded.pkgd.min.js"></script> -->
-
-    <!-- <script src="assets/js/isotope.pkgd.min.js"></script> -->
-
-    <script src="assets/js/parallax.js"></script>
-
-    <script src="assets/js/main.js"></script>
+    <script src="{{URL::asset('assets/js/main.js')}}"></script>
 </body>
 
 </html>

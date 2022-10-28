@@ -34,7 +34,7 @@ body {
     width: 5px;
 }
 ::-webkit-scrollbar-thumb {
-    background-image: linear-gradient(125deg, #fb3c7f 0%, #ffc05e 100%);
+    background: #4f2f8c;
     border-radius: 10px;
 }
 h1 {
@@ -3827,7 +3827,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 }
 .header-area.header-brand .sass-bg-img {
     height: 730px;
-    width: 700px;
+    width: 670px;
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
@@ -5007,8 +5007,8 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     text-align: left;
     display: flex;
     justify-content: space-between;
-    padding: 0px 100px 0 0px;
-    background: linear-gradient(90deg, #4785ec 0%, #3366c1 100%);
+    padding: 30px 80px 0 0px;
+    background: #4f2f8c;
     align-items: center;
 }
 .call-to-action-inner.style-05 .call-to-action-content {
@@ -6654,7 +6654,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     bottom: 30px;
     width: 50px;
     height: 50px;
-    background-image: linear-gradient(125deg, #fb3c7f 0%, #ffc05e 100%);
+    background: #4f2f8c;
     color: #fff;
     text-align: center;
     line-height: 50px;
@@ -6686,7 +6686,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 .preloader-inner div {
     width: 120px;
     height: 120px;
-    background: linear-gradient(-45deg, #fb3c7f, #ffc05e);
+    background: #4f2f8c;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -6910,10 +6910,10 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     border-radius: 0;
 }
 .btn-wrapper .boxed-btn.btn-brand:hover {
-    background-color: #fd6975;
+    background-color: #6327eb;
 }
 .btn-wrapper .boxed-btn.btn-brand.reverse-color {
-    background-color: #fd6975;
+    background-color: #6327eb;
 }
 .btn-wrapper .boxed-btn.btn-brand.reverse-color:hover {
     border: 1px solid #930ed8;
