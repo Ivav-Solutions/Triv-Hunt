@@ -69,7 +69,7 @@
             <div class="row">
                 <div class="col-lg-7">
                     <div class="header-inner">
-                        <h3 class="title">A brand new initiatives of its kind. We have uniquely carved out this solution by delivering "Value out of Fun".</h3>
+                        <h3 class="title">A brand new initiative. We are creating Value with Fun.</h3>
                         <div class="btn-wrapper padding-top-30">
                             <a href="#" class="boxed-btn btn-brand">Get Started</a>
                         </div>
@@ -340,7 +340,6 @@
                     <div class="content-area">
                         <div class="section-title padding-bottom-25">
                             <h3 class="title">Let’s start the conversation</h3>
-                            <p>Please email us we are happy to assist you</p>
                         </div>
                         <div class="single-contact-item-02">
                         <img src="{{URL::asset('assets/img/contact.png')}}" alt="">
