@@ -69,7 +69,7 @@
             <div class="row">
                 <div class="col-lg-7">
                     <div class="header-inner">
-                        <h3 class="title">A new brand of creatives. create orginal and mind blowing ideas</h3>
+                        <h3 class="title">A brand new initiatives of its kind. We have uniquely carved out this solution by delivering "Value out of Fun".</h3>
                         <div class="btn-wrapper padding-top-30">
                             <a href="#" class="boxed-btn btn-brand">Get Started</a>
                         </div>
@@ -97,7 +97,7 @@
                         </div>
                         <div class="content">
                             <h4 class="title">Create Account</h4>
-                            <p>Each time a digital asset is purchased or sold, Sequoir donates a percentage of the fees back </p>
+                            <p>Simply create an account with your email address and a unique password.</p>
                         </div>
                     </div>
                 </div>
@@ -107,8 +107,10 @@
                             <span class="day">2</span>
                         </div>
                         <div class="content">
-                            <h4 class="title">Fill The Form</h4>
-                            <p>Each time a digital asset is purchased or sold, Sequoir donates a percentage of the fees back </p>
+                            <h4 class="title">Verify Account</h4>
+                            <p>You can play a game with an unverified account, but to enter into a live game and earn you need to verify your account with a government
+                                issued identification card.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -118,8 +120,8 @@
                             <span class="day">3</span>
                         </div>
                         <div class="content">
-                            <h4 class="title">Lets Enjoy</h4>
-                            <p>Each time a digital asset is purchased or sold, Sequoir donates a percentage of the fees back </p>
+                            <h4 class="title">Play and Network</h4>
+                            <p>You learn and earn while playing. Also the platform gives the opportunity to network with like minded users in the community interface of {{config('app.name')}}.</p>
                         </div>
                     </div>
                 </div>
@@ -139,7 +141,7 @@
                     <div class="col-lg-6">
                         <div class="call-to-action-content">
                             <h2 class="title">{{config('app.name')}} Made for You</h2>
-                            <p class="subtitle">Each time a digital asset is purchased or sold, Sequoir donates a percentage of the fees back.</p>
+                            <p class="subtitle">Each time a game is won, you add more money to your wallet and more star to your skill set to become noticeable by potential recruiters.</p>
                             <div class="apps-download">
                                 <div class="download-img">
                                     <a href=""> <img src="{{URL::asset('assets/img/01.png')}}" alt=""></a>
@@ -397,7 +399,9 @@
                             </div>
                         </div>
                         <div class="widget widget_nav_menu">
-                            <p>{{config('app.name')}} is a unique initiative that helps Nigerians and other Africans increase their earning power when they display mastery of their profession by answering career related questions.</p>
+                            <p>{{config('app.name')}} is a unique initiative that helps Nigerians and other Africans increase their earning power when they display mastery of their profession by answering career related questions.
+                                The LEN objective alows you to Learn while playing, Earn while play and Network while playing.
+                            </p>
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-6 col-sm-6">
