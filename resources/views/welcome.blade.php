@@ -210,7 +210,7 @@
                                 </div>
                                 <div id="collapseThree" class="collapse" data-parent="#accordion">
                                     <div class="card-body">
-                                        {{config('app.name')}} is for Nigerians and other Africans who are either unemployed or underemployed. It's also for gamers, quiz enthusiasts and people who love to bet.
+                                        {{config('app.name')}} accommodates professionals across all levels whether they are employed, underemployed or unemployed. It's also for gamers, quiz enthusiasts and people who love to bet.
                                     </div>
                                 </div>
                             </div>
@@ -224,7 +224,7 @@
                                 </div>
                                 <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
                                     <div class="card-body">
-                                        {{config('app.name')}} mainly caters for some categories which include IT, Digital Marketing and Startups.
+                                        Yes, {{config('app.name')}} is not career-selective. It is appropriate to individuals from different career backgrounds and interests such as Information Technology, Sports, Digital Marketing Music, Education, Food and many more.
                                     </div>
                                 </div>
                             </div>
@@ -252,7 +252,7 @@
                                 </div>
                                 <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
                                     <div class="card-body">
-                                        A game is just N100.
+                                        You need a minimum of N100 in your wallet to access a live game. However, you can enjoy a demo game with no earning potential for free.
                                     </div>
                                 </div>
                             </div>
