@@ -69,7 +69,8 @@
             <div class="row">
                 <div class="col-lg-7">
                     <div class="header-inner">
-                        <h3 class="title">A brand new initiative. We are creating Value with Fun.</h3>
+                        <h3 class="title">Learn, Earn and Network with Trivhunt</h3>
+                        <p class="text-dark">Get paid for taking quiz in any area of your expertise or interest and improve your knowledge, connect with like-minds and attract potential employers to your profile.</p>
                         <div class="btn-wrapper padding-top-30">
                             <a href="#" class="boxed-btn btn-brand">Download Trivhunt App and Start Earning</a>
                         </div>

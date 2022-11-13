@@ -436,7 +436,7 @@
         margin-bottom: 40px;
     }
     .header-area {
-        padding: 290px 0 355px;
+        padding: 200px 0 200px !important;
     }
     .header-area.header-brand .sass-bg-img {
         display: none;
