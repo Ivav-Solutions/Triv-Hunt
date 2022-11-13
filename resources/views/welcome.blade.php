@@ -71,7 +71,7 @@
                     <div class="header-inner">
                         <h3 class="title">A brand new initiative. We are creating Value with Fun.</h3>
                         <div class="btn-wrapper padding-top-30">
-                            <a href="#" class="boxed-btn btn-brand">Get Started</a>
+                            <a href="#" class="boxed-btn btn-brand">Download Trivhunt App and Start Earning</a>
                         </div>
                     </div>
 
@@ -134,7 +134,7 @@
             <div class="call-to-action-inner style-05">
                 <div class="row">
                     <div class="col-lg-6">
-                        <div class="call-action-img offset-lg-2" >
+                        <div class="call-action-img offset-lg-2">
                             <img src="{{URL::asset('assets/img/action.png')}}" alt="" style="margin-bottom: -5rem;">
                         </div>
                     </div>
@@ -157,7 +157,7 @@
         </div>
     </div>
 
-    <div id="faqs" class="accoridions padding-top-310 padding-bottom-120">
+    <div id="faqs" class="accoridions padding-top-310 padding-bottom-90">
         <div class="container">
             <div class="row justify-content-center padding-bottom-50">
                 <div class="col-lg-8 col-md-12">
@@ -333,6 +333,27 @@
         </div>
     </div>
 
+    <div class="call-to-action-area bg-image padding-bottom-120" style="background-image: url(assets/img/call-to-action/bg.png);">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <div class="call-to-action-inner style-02 text-center">
+                        <div class="line-area">
+                            <span class="line-one"></span>
+                            <span class="line-two"></span>
+                            <span class="line-three"></span>
+                        </div>
+                        <span class="bubble"></span>
+                        <div class="content">
+                            <h2 class="title">Download Trivhunt App and Start Earning</h2>
+                            <p class="subtitle">Don’t wait for salary before you make money. Start earning anytime, any day.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div id="contactus" class="contact-inner-area padding-bottom-90">
         <div class="container">
             <div class="row">
@@ -342,7 +363,7 @@
                             <h3 class="title">Let’s start the conversation</h3>
                         </div>
                         <div class="single-contact-item-02">
-                        <img src="{{URL::asset('assets/img/contact.png')}}" alt="">
+                            <img src="{{URL::asset('assets/img/contact.png')}}" alt="">
                         </div>
                     </div>
                 </div>

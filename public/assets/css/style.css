@@ -3716,7 +3716,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     position: absolute;
     width: 95%;
     height: 80%;
-    background-color: #2e2a59;
+    background-color: #4f2f8c;
     z-index: -1;
 }
 .header-area.header-sass .sass-bg-img-02 {
@@ -4633,7 +4633,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 }
 .footer-top.style-03 {
     border-bottom: 1px solid rgba(114, 108, 148, 0.2);
-    background-color: #2e2a59;
+    background-color: #4f2f8c;
 }
 .footer-top.style-03 .widget .widget-title {
     color: var(--main-color-one);
@@ -4913,8 +4913,9 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     padding: 75px 95px 80px;
     text-align: left;
     align-items: center;
-    justify-content: space-between;
-    background-color: #2e2a59;
+    justify-content: center;
+    /* justify-content: space-between; */
+    background-color: #4f2f8c;
 }
 .call-to-action-inner.style-02 .btn-wrapper .boxed-btn {
     margin-left: 20px;
