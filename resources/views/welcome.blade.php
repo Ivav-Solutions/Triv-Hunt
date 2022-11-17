@@ -471,6 +471,20 @@
         <span class="back-top"><i class="fa fa-angle-up"></i></span>
     </div>
 
+    <script>
+        window.VIDEOASK_EMBED_CONFIG = {
+            "kind": "widget",
+            "url": "https://bots.person8.ai/fii02z9cs",
+            "options": {
+                "widgetType": "VideoThumbnailWindowTall",
+                "text": "",
+                "backgroundColor": "#F17013",
+                "position": "bottom-right",
+                "dismissible": true
+            }
+        }
+    </script>
+    <script src="https://d1yere00agyg9m.cloudfront.net/website_assets/bots.js"></script>
 
     <script src="{{URL::asset('assets/js/jquery-2.2.4.min.js')}}"></script>
 
