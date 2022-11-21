@@ -6,7 +6,7 @@
     --main-color-two: #ffc05e;
     --secondary-color: #48168e;
     --heading-color: #16215c;
-    --paragraph-color: #727777;
+    --paragraph-color: #000;
     --heading-font: "Roboto", sans-serif;
     --heading-font-02: "Open Sans", sans-serif;
     --body-font: "Poppins", sans-serif;
@@ -1647,7 +1647,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 }
 .widget.footer-widget ul li a,
 .widget.footer-widget ul li {
-    color: #9191aa;
+    color: #000;
     font-size: 14px;
 }
 .widget.footer-widget.style-02 ul li a {
@@ -4699,7 +4699,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     align-items: center;
 }
 .copyright-area-inner {
-    color: #7d7d93;
+    color: #000;
 }
 .copyright-area-inner.style-01 {
     color: #a9b2e2;
