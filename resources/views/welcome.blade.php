@@ -476,9 +476,9 @@
             "kind": "widget",
             "url": "https://bots.person8.ai/fii02z9cs",
             "options": {
-                "widgetType": "VideoThumbnailWindowTall",
-                "text": "",
-                "backgroundColor": "#F17013",
+                "widgetType": "VideoThumbnailExtraLarge",
+                "text": "Learn more about Trivunt",
+                "backgroundColor": "#ffffff",
                 "position": "bottom-right",
                 "dismissible": true
             }
