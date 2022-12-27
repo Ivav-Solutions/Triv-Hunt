@@ -10829,3 +10829,16 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     max-width: 285px;
     margin: auto;
 }
+
+/* Error */
+.application-alert-success {
+    background: green;
+    padding: 10px;
+    color: #fff;
+}
+
+.application-alert-danger {
+    background:rgb(212, 0, 0);
+    padding: 10px;
+    color: #fff;
+}

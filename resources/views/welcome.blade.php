@@ -370,7 +370,9 @@
                 </div>
                 <div class="col-lg-6 offset-lg-1a">
                     <div class="contact-form style-01">
-                        <form action="" class="contact-page-form" novalidate="novalidate">
+                        @includeIf('layouts.error_template')
+                        <form class="contact-page-form" method="post" action="/contact-us">
+                            @csrf
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="form-group">
@@ -384,10 +386,17 @@
                                         <input type="text" name="phone" placeholder="Type Phone Number" class="form-control" required="" aria-required="true">
                                     </div>
                                 </div>
+                                
                                 <div class="col-md-12">
                                     <div class="form-group">
                                         <label for="email">Email Address <span>*</span></label>
                                         <input type="text" name="email" placeholder="Type Email Address" class="form-control" required="" aria-required="true">
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="subject">Subject <span>*</span></label>
+                                        <input type="text" name="subject" placeholder="Type Subject" class="form-control" required="" aria-required="true">
                                     </div>
                                 </div>
                                 <div class="col-md-12">
