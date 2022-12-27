@@ -72,7 +72,7 @@
                         <h3 class="title">Learn, Earn and Network with Trivhunt</h3>
                         <p class="text-dark">Get paid for taking quiz in any area of your expertise or interest and improve your knowledge, connect with like-minds and attract potential employers to your profile.</p>
                         <div class="btn-wrapper padding-top-30">
-                            <a href="#" class="boxed-btn btn-brand">Download Trivhunt App and Start Earning</a>
+                            <a href="https://play.google.com/store/apps/details?id=com.ivavtech.trivhunt" target="_blank" class="boxed-btn btn-brand">Download Trivhunt App and Start Earning</a>
                         </div>
                     </div>
 
@@ -148,7 +148,7 @@
                                     <a href=""> <img src="{{URL::asset('assets/img/01.png')}}" alt=""></a>
                                 </div>
                                 <div class="download-img style-01">
-                                    <a href=""> <img src="{{URL::asset('assets/img/02.png')}}" alt=""></a>
+                                    <a href="https://play.google.com/store/apps/details?id=com.ivavtech.trivhunt" target="_blank"> <img src="{{URL::asset('assets/img/02.png')}}" alt=""></a>
                                 </div>
                             </div>
                         </div>
