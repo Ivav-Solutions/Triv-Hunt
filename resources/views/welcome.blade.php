@@ -430,7 +430,7 @@
                         </div>
                         <div class="widget widget_nav_menu">
                             <p>{{config('app.name')}} is a unique initiative that helps Nigerians and other Africans increase their earning power when they display mastery of their profession by answering career related questions.
-                                The LEN objective alows you to Learn while playing, Earn while play and Network while playing.
+                                The LEN objective alows you to Learn while playing, Earn while playing and Network while playing.
                             </p>
                         </div>
                     </div>
