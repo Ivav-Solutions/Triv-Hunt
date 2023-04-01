@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{config('app.name')}}</title>
 
     <link rel=icon href="{{URL::asset('assets/img/favicon.png')}}" sizes="20x20" type="image/png">
@@ -479,21 +478,6 @@
     <div class="back-to-top">
         <span class="back-top"><i class="fa fa-angle-up"></i></span>
     </div>
-
-    <script>
-        window.VIDEOASK_EMBED_CONFIG = {
-            "kind": "widget",
-            "url": "https://bots.person8.ai/fii02z9cs",
-            "options": {
-                "widgetType": "VideoThumbnailExtraLarge",
-                "text": "Learn more about Trivunt",
-                "backgroundColor": "#ffffff",
-                "position": "bottom-right",
-                "dismissible": true
-            }
-        }
-    </script>
-    <script src="https://d1yere00agyg9m.cloudfront.net/website_assets/bots.js"></script>
 
     <script src="{{URL::asset('assets/js/jquery-2.2.4.min.js')}}"></script>
 
