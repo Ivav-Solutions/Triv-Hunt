@@ -108,8 +108,7 @@
                         </div>
                         <div class="content">
                             <h4 class="title">Verify Account</h4>
-                            <p>You can play a game with an unverified account, but to enter into a live game and earn you need to verify your account with a government
-                                issued identification card.
+                            <p>You will need a verified account to play a game and earn. You can easily verify your account with your BVN or a government issued ID.
                             </p>
                         </div>
                     </div>
@@ -196,7 +195,8 @@
                                 </div>
                                 <div id="collapseTwo" class="collapse" data-parent="#accordion">
                                     <div class="card-body">
-                                        Millions of qualified Nigerians are currently unemployed. Many employed people even feel they deserve more. What's worse? There's no platform for them to swiftly earn better, express their ability and connect with potential employers. {{config('app.name')}} bridges this gap by providing an all-inclusive place for digitally skilled individuals to earn.
+                                        Millions of qualified Nigerians are currently unemployed. Many employed people even feel they deserve more. What's worse? There's no platform for them to swiftly earn better, express their ability and connect with potential employers. 
+                                        {{config('app.name')}} bridges this gap by providing an all-inclusive place for professionals to earn.
                                     </div>
                                 </div>
                             </div>
@@ -210,7 +210,7 @@
                                 </div>
                                 <div id="collapseThree" class="collapse" data-parent="#accordion">
                                     <div class="card-body">
-                                        {{config('app.name')}} accommodates professionals across all levels whether they are employed, underemployed or unemployed. It's also for gamers, quiz enthusiasts and people who love to bet.
+                                        {{config('app.name')}} accommodates professionals across all levels whether they are employed, underemployed or unemployed. It's also for gamers, quiz enthusiasts and people who love to be challenged.
                                     </div>
                                 </div>
                             </div>
@@ -224,7 +224,8 @@
                                 </div>
                                 <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
                                     <div class="card-body">
-                                        Yes, {{config('app.name')}} is not career-selective. It is appropriate to individuals from different career backgrounds and interests such as Information Technology, Sports, Digital Marketing Music, Education, Food and many more.
+                                        Yes, {{config('app.name')}} is not career-selective. It is appropriate to individuals from different career backgrounds and interests such as Information Technology, Accounting, 
+                                        Education, Digital Marketing, Health and many more.
                                     </div>
                                 </div>
                             </div>
@@ -252,7 +253,7 @@
                                 </div>
                                 <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
                                     <div class="card-body">
-                                        You need a minimum of N100 in your wallet to access a live game. However, you can enjoy a demo game with no earning potential for free.
+                                        You need a minimum of N100 in your wallet to access a gamified quiz.
                                     </div>
                                 </div>
                             </div>
@@ -266,7 +267,7 @@
                                 </div>
                                 <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
                                     <div class="card-body">
-                                        You can earn as much as N50,000 per game.
+                                        You can earn as much as N115,000 per game.
                                     </div>
                                 </div>
                             </div>
@@ -280,7 +281,8 @@
                                 </div>
                                 <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion">
                                     <div class="card-body">
-                                        If you satisfy all conditions, withdrawing your money is very easy. Simply click on "My earnings" and indicate the amount you wish to withdraw. After that, choose the payment method from the options listed and follow the prompt. Only note that, your money will be paid into your verified account.
+                                        Withdrawing your money is very easy. Simple click on "My earnings" and indicate the amount you wish to withdraw. After that, choose the payment method and follow
+                                        the prompt. Only note that, your money will be paid into your verified account.
                                     </div>
                                 </div>
                             </div>
