@@ -281,7 +281,7 @@
                                 </div>
                                 <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion">
                                     <div class="card-body">
-                                        Withdrawing your money is very easy. Simple click on "My earnings" and indicate the amount you wish to withdraw. After that, choose the payment method and follow
+                                        Withdrawing your money is very easy. Simply click on "My earnings" and indicate the amount you wish to withdraw. After that, choose the payment method and follow
                                         the prompt. Only note that, your money will be paid into your verified account.
                                     </div>
                                 </div>
@@ -441,6 +441,7 @@
                             <ul>
                                 <li><a href="/">Home</a></li>
                                 <li><a href="#about">About Us</a></li>
+                                <li><a href="#contactus">Contact Us</a></li>
                             </ul>
                         </div>
                     </div>
@@ -454,9 +455,12 @@
                     </div>
                     <div class="col-lg-2 col-md-6 col-sm-6">
                         <div class="footer-widget style-01 widget widget_nav_menu">
-                            <h4 class="widget-title">Get In Touch</h4>
-                            <ul>
-                                <li><a href="#contactus">Contact Us</a></li>
+                            <h4 class="widget-title">Follow us on</h4>
+                            <ul class="social_share">
+                                <li><a href="https://www.linkedin.com/company/trivhunt/"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="https://facebook.com/Trivhunt"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="https://instagram.com/Trivhunt"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="https://twitter.com/trivhunt?s=11&t=Ne1DhcFy37UYBE0hnO8ytQ"><i class="fab fa-instagram"></i></a></li>
                             </ul>
                         </div>
                     </div>
