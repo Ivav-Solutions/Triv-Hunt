@@ -459,8 +459,8 @@
                             <ul class="social_share">
                                 <li><a href="https://www.linkedin.com/company/trivhunt/"><i class="fab fa-linkedin-in"></i></a></li>
                                 <li><a href="https://facebook.com/Trivhunt"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="https://instagram.com/Trivhunt"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="https://twitter.com/trivhunt?s=11&t=Ne1DhcFy37UYBE0hnO8ytQ"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="https://twitter.com/trivhunt?s=11&t=Ne1DhcFy37UYBE0hnO8ytQ"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="https://instagram.com/Trivhunt"><i class="fab fa-instagram"></i></a></li>
                             </ul>
                         </div>
                     </div>
